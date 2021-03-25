@@ -40,7 +40,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\DetailListGrid.pcfproj" />
+    <ProjectReference Include="..\DetailListGrid.pcfproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
