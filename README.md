@@ -2,12 +2,13 @@
 
 This project provide a template to develop a custom view in [Power Platform](https://powerplatform.microsoft.com/en-us/) [Model Driven Application](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
+
 This project is a combination of projects below
 
-* [DetailListGrid](https://github.com/rwilson504/PCFControls/tree/master/DetailListGrid) 
-> Reused the code  
 * [pcf-template-dataset](https://github.com/rajyraman/pcf-template-dataset) 
-> Reused the actions 
+  > Reused the code
+* [DetailListGrid](https://github.com/rwilson504/PCFControls/tree/master/DetailListGrid) 
+  > Reused the actions
 
 ## The Control
 
