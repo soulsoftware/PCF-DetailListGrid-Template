@@ -5,9 +5,9 @@ This project provide a template to develop a custom view in [Power Platform](htt
 
 This project is a combination of projects below
 
-* [pcf-template-dataset](https://github.com/rajyraman/pcf-template-dataset) 
-  > Reused the code
 * [DetailListGrid](https://github.com/rwilson504/PCFControls/tree/master/DetailListGrid) 
+  > Reused the code
+* [pcf-template-dataset](https://github.com/rajyraman/pcf-template-dataset)  
   > Reused the actions
 
 ## The Control
