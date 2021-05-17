@@ -42,7 +42,7 @@ jobs:
         id: solution-unique-name
         uses: mavrosxristoforos/get-xml-info@1.0
         with:
-          xml-file: "${{ steps.checkpcfconfig.outputs.buildtarget }}/src/Other/Solution.xml"
+          xml-file: "${{ steps.checkpcfconfig.outputs.buildtarget }}/Other/Solution.xml"
           xpath: "//ImportExportXml/SolutionManifest/UniqueName"
 
       - name: Solution Version
@@ -50,7 +50,7 @@ jobs:
         id: solution-version
         uses: mavrosxristoforos/get-xml-info@1.0
         with:
-          xml-file: '${{ steps.checkpcfconfig.outputs.buildtarget }}/src/Other/Solution.xml'
+          xml-file: '${{ steps.checkpcfconfig.outputs.buildtarget }}/Other/Solution.xml'
           xpath: "//ImportExportXml/SolutionManifest/Version"
       
       - name: Get npm cache directory
