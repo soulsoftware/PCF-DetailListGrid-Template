@@ -130,7 +130,7 @@ export class DetailListGridTemplate implements ComponentFramework.StandardContro
 		
 		// Need to track container resize so that control could get the available width. 
 		// The available height won't be provided even when this is true
-		context.mode.trackContainerResize(true);
+		// context.mode.trackContainerResize(true);
 
 		this._container = container;
 		this._context = context;
