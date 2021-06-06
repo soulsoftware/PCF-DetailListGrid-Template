@@ -35,8 +35,6 @@ export interface IDetailListGridControlProps {
 
 }
 
-type IColumnWidth = number
-
 //Initialize the icons otherwise they will not display in a Canvas app.
 //They will display in Model app because Microsoft initializes them in their controls.
 initializeIcons();
