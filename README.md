@@ -12,18 +12,21 @@ This project is a combination of projects below
 
 ## The Control
 
-![DetailsList Grid Control](https://github.com/rwilson504/Blogger/blob/master/Office-Fabric-UI-DetailsList-PCF/office-fabric-ui-detailslist.gif?raw=true)
+**DetailsList Grid Control** allows you to simulate the out of the box grid and subgrid controls using the [FluentUI DetailsList control](https://developer.microsoft.com/en-us/fluentui#/controls/web/detailslist). It is built to provide a ready-to-use scaffold  when you need a customizable grid experience.  This component re-creates a mojority of the capabilities available out of the box
 
-Allows you to simulate the out of the box grid and subgrid controls using the Office-UI-Fabric DetailsList control.  It was built to provide a springboard when you need a customizable grid experience.  This component re-creates a mojority of the capabilities available out of the box in less than 300 lines of code and demonstrates the following: 
+### Features
 
-* Using the DataSet within a React functional component.
-* Displaying and sorting data within the Office-UI-Fabric DetailsList component.
-* Rendering custom formats for data with the DetailsList component such as links for Entity References, email addresses, and phone numbers.
-* Displaying field data for related entities.
-* React Hooks - the component uses both useState and useEffect.
-* Loading more than 5k records in DataSet.
-* Retaining the use of the standard ribbon buttons by using the setSelectedRecordIds function on the DataSet.
-* Detecting and responding to control width updates.
+1. Using the DataSet within a React functional component.
+1. Displaying and sorting data within the [FluentUI DetailsList control](https://developer.microsoft.com/en-us/fluentui#/controls/web/detailslist).
+1. Rendering custom formats for data with the DetailsList component such as **links** for **Entity References**, **email addresses** and **phone numbers**.
+1. Displaying field data for related entities.
+1. React Hooks - the component uses both useState and useEffect.
+1. Support DataSet Paging.
+1. Retaining the use of the standard ribbon buttons by using the `setSelectedRecordIds` function on the DataSet.
+1. Support single selection
+
+Note:
+> Currently it doesn't support Canvas-App but only Model-Driven-App
 
 ## References
 

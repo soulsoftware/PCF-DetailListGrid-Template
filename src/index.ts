@@ -124,8 +124,9 @@ export class DetailListGridTemplate implements ComponentFramework.StandardContro
 		 */
 		const entityName = getQueryVariable('etn')
 		
-		console.log( {
+		console.log( { 
 			'entity name':entityName,
+			'version':'1.0.11'
 		}, context, state )
 		
 		// Need to track container resize so that control could get the available width. 
